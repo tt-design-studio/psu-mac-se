@@ -83,6 +83,6 @@ Table 2: Pin / signal / wire color code listing for both ends of the harnesss.
 
 Figure 1: Pin / wire color code layout for both ends of the harnesss (this view is of the **<u>back side</u>** of the connector).
 
-## 6. Cable Protection
+### 6. Cable Protection
 
 Ensure you reuse the grommet/gland/strain relief from the original power supply to protect the wire insulation from abraision from the edges of the sheet metal enclosure. Small vibrations over time can wear away the insulation and cause a short circuit.
