@@ -27,8 +27,9 @@ This version added a pluggable terminal for the ASTEC version of the power suppl
 Phoenix Contact - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
 
 - [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d27a74f39d)
+- [Digikey](https://www.digikey.com/en/mylists/list/7I77MKNK71)
 
-### Board versions 0.2 and v0.3
+### Board versions 0.2 and 0.3
 
 - [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ec51f88d00)
 
