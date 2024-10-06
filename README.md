@@ -1,5 +1,7 @@
 ## Project Overview
 
+![](/images/PSU_SE_3D_Rendering.jpg)
+
 This project is for a design of a modern replacement of the AC/DC power supply board for the Apple Macintosh SE/30 and SE using all new components. It is mainly intended to be a DIY project to build on your own.
 
 What follows are some notes to aid in the build configuration and component selection. 
@@ -22,7 +24,7 @@ Note, the power draw on the -12 V rail in a typical SE/30 setup is ~ 0.1 A.
 
 ### Board version 0.4
 
-This version added a pluggable terminal for the ASTEC version of the power supply
+This version added a pluggable terminal for the ASTEC version of the power supply. The project links do not include the LED (D1) and the resistor (R1).
 
 Phoenix Contact - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
 
