@@ -1,6 +1,6 @@
 ## Project Overview
 
-This project is for a design of a more powerful replacement of the AC/DC power supply board for the Apple Macintosh SE/30 and SE using all new components. It is mainly intended to be a DIY project to build on your own.
+This project is for a design of a modern replacement of the AC/DC power supply board for the Apple Macintosh SE/30 and SE using all new components. It is mainly intended to be a DIY project to build on your own.
 
 What follows are some notes to aid in the build configuration and component selection. 
 
@@ -20,13 +20,28 @@ Note, the power draw on the -12 V rail in a typical SE/30 setup is ~ 0.1 A.
 
 ## Supplier Project Links
 
-### Versions 0.2 and v0.3 boards
+### Board version 0.4
 
-#### Mouser
-https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ec51f88d00
+This version added a pluggable terminal for the ASTEC version of the power supply
 
-#### Digikey
-https://www.digikey.com/en/mylists/list/53G5CF5PMB
+Phoenix Contact - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
+
+- [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d27a74f39d)
+
+### Board versions 0.2 and v0.3
+
+- [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ec51f88d00)
+
+- [Digikey](https://www.digikey.com/en/mylists/list/53G5CF5PMB)
+
+### Cable Assembly
+
+#### Direct board soldering
+Molex 10 pin, 225 mm, 18 AWG, single ended for soldering wires directly to the board
+
+- [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=94fdc6ba0d)
+
+- [Digikey](https://www.digikey.com/en/mylists/list/Y2ULEIMUVL)
 
 ## BOM and Assembly Notes
 
@@ -47,14 +62,14 @@ The PCB legend includes a voltage and color guide per the original PSU designs t
 - **Part Number:** 0039012105
 - **Number of Pins:** 10
 - **Gender:** Receptacle (female)
-- **Quantity:** 2 (one on each end of the cable assembly)
+- **Quantity:** 2 or 1 for direct soldering to board
 
 ### 2. Wire Specifications
 
 - **Wire Gauge:** 18 AWG
 - **Wire Type:** UL 1061
 - **Wire Type:** Flexible multi-stranded
-- **Length:** 20 cm (with connector on both ends) or 27-30 cm for a single connector with direct soldering to the board
+- **Length:** 20 cm (with connector on both ends) or 22.5-30 cm for a single connector with direct soldering to the board
 - **Quantity:** 10 wires total per the color coding (if desired)
 
 ### 4. Terminal Specifications
