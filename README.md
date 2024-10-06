@@ -1,4 +1,6 @@
-## Project Overview
+## Mac SE PSU Project Overview
+
+[Purchase boards link](https://www.tindie.com/products/ttdesign/diy-macintosh-se30-se-ac-dc-power-supply-board/)
 
 ![](/images/PSU_SE_3D_Rendering.jpg)
 
@@ -39,7 +41,17 @@ Phoenix Contact - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
 
 ### Cable Assembly
 
+#### Modular cable assembly (connector on both ends)
+
+The modular cable approach tries to balance the ease of assembly with the standard practice of using a crimped wire and connector for wire to board applications. If an issue develops with the cable, it can be more easily replaced. The trade-off is it adds two components for the connectors and some small additional contact resistance.
+
+- [Mouser]()
+- [Digikey]()
+
 #### Direct board soldering
+
+Note: Typically PSU wires have a terminal crimped to the wire end ([example](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/170338-1/1861092)) and then the terminal is soldered to the board. This prevents solder from wicking into the cable which weakens the cable and the terminal provides strain relief by holding onto the insulator.
+
 Molex 10 pin, 225 mm, 18 AWG, single ended for soldering wires directly to the board
 
 - [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=94fdc6ba0d)
