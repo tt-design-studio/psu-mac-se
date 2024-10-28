@@ -24,11 +24,17 @@ Note, the power draw on the -12 V rail in a typical SE/30 setup is ~ 0.1 A.
 
 ## Supplier Project Links
 
+### Board version 0.5
+
+Parts project links are the same as 0.4 below.
+
+This version has a small tweek for the Apple connector assembly proces that uses the board as a fixture for removing the (*poka-yoke*) pin. You can solder the two outside pins and then remove the one pin afterward. There is a small encircled X around the pin to remove, but also double check the original connector.
+
 ### Board version 0.4
 
-This version added a pluggable terminal for the ASTEC version of the power supply. The project links do not include the LED (D1) and the resistor (R1).
+This version added a pluggable terminal for the ASTEC version of the power supply (or solder the solid wire direct to the board). The project links do not include the LED (D1) and the resistor (R1).
 
-Phoenix Contact - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
+Phoenix Contact (or equivalent) - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
 
 - [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d27a74f39d)
 - [Digikey](https://www.digikey.com/en/mylists/list/7I77MKNK71)
@@ -43,14 +49,14 @@ Phoenix Contact - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
 
 #### Modular cable assembly (connector on both ends)
 
-The modular cable approach tries to balance the ease of assembly with the standard practice of using a crimped wire and connector for wire to board applications. If an issue develops with the cable, it can be more easily replaced. The trade-off is it adds two components for the connectors and some small additional contact resistance.
+The modular cable approach tries to balance the ease of assembly with the standard practice of using a crimped wire and terminal pin for wire to board applications. If an issue develops with the cable, it can be more easily replaced. The trade-off is it adds two components for the connectors and some small additional contact resistance.
 
 - [Mouser]()
 - [Digikey]()
 
 #### Direct board soldering
 
-Note: Typically PSU wires have a terminal crimped to the wire end ([example](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/170338-1/1861092)) and then the terminal is soldered to the board. This prevents solder from wicking into the cable which weakens the cable and the terminal provides strain relief by holding onto the insulator.
+Note: Typically PSU stranded wires have a terminal crimped to the wire end ([example](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/170338-1/1861092)) and then the terminal is soldered to the board. This prevents solder from wicking into the cable which weakens the cable and the terminal provides strain relief by holding onto the insulator.
 
 Molex 10 pin, 225 mm, 18 AWG, single ended for soldering wires directly to the board
 
@@ -64,7 +70,7 @@ Molex 10 pin, 225 mm, 18 AWG, single ended for soldering wires directly to the b
 | -------- | ------------------------------------------------------------ |
 | 1        | You can probably transfer the working fuse from the old PCBA if you would like (v0.3 note: the ASTEC variant fuse is physically larger and cannot be reused), or use one like the one suggested in the cart link. |
 | 2        | The board is designed for all new components, so the old Sony connector does not need to be harvested. There are two AC connector options for the type of PSU chassis. J2 is for the Sony variant, which uses 3 pins directly soldered to the board. J3 is for Apple variant. For the the Apple variant, you may want to buy an extra J3 considering note 3. |
-| 3        | One pin (out of the 4) is removed from J3 to create a keyed connector to prevent reversing the connection. Check your original board to see which pin is missing while using the locking tab for the orientation. An easy way to do remove the pin is to hold the connector body in a vise and heat the pin closer to the plastic base with a soldering iron while holding the pin with pliers. Pull the pin out when it starts to give, which will likely happen very quickly. |
+| 3        | One pin (out of the 4) is removed from J3 to create a keyed connector to prevent reversing the connection. Check your original board to see which pin is missing while using the locking tab for the orientation. An easy way to do remove the pin is to hold the connector body in a vise and heat the pin closer to the plastic base with a soldering iron while holding the pin with pliers. Pull the pin out when it starts to give, which will likely happen very quickly. Board version 0.5 allows you to use the board as a fixture by soldering the two pins and then removing the *poka-yoke pin*. |
 | 4        | The Mean Well IRM-45 series power supplies appear to be interchangable with the IRM-60 series to allow for more sourcing options and slightly reduce cost |
 
 ## Power Cable Assembly
