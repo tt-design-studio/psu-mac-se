@@ -49,7 +49,7 @@ Phoenix Contact (or equivalent) - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
 
 #### Modular cable assembly (connector on both ends)
 
-The modular cable approach tries to balance the ease of assembly with the standard practice of using a crimped wire and terminal pin for wire to board applications. If an issue develops with the cable, it can be more easily replaced. The trade-off is it adds two components for the connectors and some small additional contact resistance.
+The modular cable approach tries to balance the ease of assembly with the standard practice of using a crimped wire and terminal pin for wire to board applications. If an issue develops with the cable, it can be more easily replaced. The trade-off is it adds two components for the connectors and a very small additional contact resistance (measured drop of less than 10 mV under load).
 
 - [Mouser]()
 - [Digikey]()
