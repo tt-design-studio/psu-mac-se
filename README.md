@@ -1,7 +1,7 @@
 ## Mac SE PSU Project Overview
 
-[Purchase bare board link](https://www.tindie.com/products/ttdesign/diy-macintosh-se30-se-ac-dc-power-supply-board/)
-[Purchase completed assembly link](https://www.tindie.com/products/ttdesign/macintosh-se30-se-assembled-power-supply-board/)
+- [Purchase bare board link](https://www.tindie.com/products/ttdesign/diy-macintosh-se30-se-ac-dc-power-supply-board/)
+- [Purchase completed assembly link](https://www.tindie.com/products/ttdesign/macintosh-se30-se-assembled-power-supply-board/)
 
 
 ![](/images/PSU_SE_3D_Rendering.jpg)
