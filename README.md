@@ -15,10 +15,10 @@ What follows are some notes to aid in the build configuration and component sele
 Here's a table of the build options for the different Mean Well IRM modules and their voltage rails.
 
 | Voltage Rail | Original Spec | IRM-10  | IRM-15 | IRM-45 | IRM-60 |
-| ----- | ------------- | ------- | ------ | ------ | ------ |
-| +5 V  | 6 A           | -       | -      | 8 A    | 10 A   |
-| +12 V | 3.35 A        | -       | -      | 3.8 A  | 5 A    |
-| -12 V | 0.5 A         | 0.850 A | 1.25 A | -      | -      |
+| ----- | --------------------- | ------- | ------ | ------ | ------ |
+| +5 V  | 6 A                   | -       | -      | 8 A    | 10 A   |
+| +12 V | 3.35 A (Disk + Sweep) | -       | -      | 3.8 A  | 5 A    |
+| -12 V | 0.5 A                 | 0.850 A | 1.25 A | -      | -      |
 
 Table 1: PSU Module Specs
 
