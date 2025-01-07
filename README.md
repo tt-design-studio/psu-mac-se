@@ -24,7 +24,7 @@ Table 1: PSU Module Specs
 
 Note, the power draw on the -12 V rail in a typical SE/30 setup is ~ 0.1 A.
 
-## Supplier Project Links
+## Supplier Project / Part List Links
 
 ### Board version 0.6
 
