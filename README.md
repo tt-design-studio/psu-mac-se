@@ -26,6 +26,18 @@ Note, the power draw on the -12 V rail in a typical SE/30 setup is ~ 0.1 A.
 
 ## Supplier Project Links
 
+### Board version 0.6
+
+- [Digikey Board Assembly Parts List](https://www.digikey.com/en/mylists/list/VIFGJVVNG4)
+
+Version 0.6 adds an optional "AUX" 5 VDC connector intended to bypass the power distribution through the analog board to the logic board. The components for the optional cable are in the project list below. You can also find the extraction tool in the list at other stores.
+
+Version 0.6 also has a different a footprint and components for the ASTEC connector.
+
+- [Digikey AUX Cable Parts List](https://www.digikey.com/en/mylists/list/I7A1GWLQ9M)
+
+The AUX cable is a new feature, so I'm not completely sure if 450 mm wires is long enough (or too long), so check to see if that seems reasonable. In order to make the bypass, you will need to extract/pull out the 5 V orange wires from the original 14-pin logic board cable assembly and connect the AUX wires up directly to the logic board connector. Ground wires are included as well just in case, but that may not be necessary. If you do include ground wires, you may want to make two twisted pairs to help suppress noise and you will need to pull two ground wires from the original logic board cable assembly.
+
 ### Board version 0.5
 
 Parts project links are the same as 0.4 below.
@@ -53,8 +65,10 @@ Phoenix Contact (or equivalent) - Qty 1: P/N 1755749 and Qty 1: P/N 1757022
 
 The modular cable approach tries to balance the ease of assembly with the standard practice of using a crimped wire and terminal pin for wire to board applications. If an issue develops with the cable, it can be more easily replaced. The trade-off is it adds two components for the connectors and a very small additional contact resistance (measured drop of less than 10 mV under load).
 
+Parts linked below are provided as an example, the wire may be on the thick side which would make it difficult to install.
+
+- [Digikey](https://www.digikey.com/en/mylists/list/DYULO1H5Y7)
 - [Mouser]()
-- [Digikey]()
 
 #### Direct board soldering
 
