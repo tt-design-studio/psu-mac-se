@@ -28,7 +28,7 @@ Note, the power draw on the -12 V rail in a typical SE/30 setup is ~ 0.1 A.
 
 ### Board version 0.6
 
-Version 0.6 adds an optional "AUX" 5 VDC connector intended to bypass the power distribution through the analog board to the logic board. The components for the optional cable are in the project list below. You can also find the extraction tool in the list at other stores.
+Version 0.6 adds an optional "AUX" 5 VDC connector intended to bypass the power distribution through the analog board to the logic board. This is recommended for highly upgraded machine build configurations. The components for the optional cable are in the project list below. You can also find the extraction tool in the list at other stores.
 
 Version 0.6 also has a different a footprint and components for the ASTEC connector.
 
@@ -36,6 +36,18 @@ Version 0.6 also has a different a footprint and components for the ASTEC connec
 - [Digikey AUX Cable Parts List](https://www.digikey.com/en/mylists/list/I7A1GWLQ9M)
 
 The AUX cable is a new feature, so I'm not completely sure if 450 mm wires is long enough (or too long), so check to see if that seems reasonable. In order to make the bypass, you will need to extract/pull out the 5 V orange wires from the original 14-pin logic board cable assembly and connect the AUX wires up directly to the logic board connector. Ground wires are included as well just in case, but that may not be necessary. If you do include ground wires, you may want to make two twisted pairs to help suppress noise and you will need to pull two ground wires from the original logic board cable assembly.
+
+#### AUX Bypass Performance Data:
+
+**Macintosh SE/30 Configuration:**
+- 2x 450 mm 16 AWG wires from PSU AUX direct to the logic board J12 connector (pins 12 & 13 per legend <- **verify!!**)
+- Logic board with 128MB RAM
+- Daystar Turbo 040 40 MHz
+- Rasterops Colorboard
+- Bolle Ethernet PDS combo riser
+- Logic board current draw: ~5.5 A | voltage at test card interface J14 ~4.90 V
+
+The above configuration is the highest draw config I have found so far in limited testing. At a lighter load (board + Bolle riser), ~ 2.5A it was at ~4.96V.
 
 ### Board version 0.5
 
